@@ -55,6 +55,11 @@ header > a span {
 
 .hero {
     background-color: #2F2681;
+}
+
+.hero img {
+    width: 85%;
+    margin: 1.6rem;
     border-radius: 10px;
 }
 
