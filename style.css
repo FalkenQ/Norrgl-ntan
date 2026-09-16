@@ -5,8 +5,10 @@ body {
     background-color: #F5F5F5;
 }
 
+/* Styling för headern. */
 header {
     padding: 1rem;
+    filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.2));
 }
 
 header > a {
@@ -31,6 +33,7 @@ header > a span {
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+/* Navigeringen i headern. */
 .navigering {
     list-style: none;
     display: flex;
@@ -61,6 +64,7 @@ header > a span {
     transform: translateY(-2px);
 }
 
+/* Styling för hero sektionen. */
 .hero {
     display: block;
     background-color: #2F2681;
@@ -105,12 +109,15 @@ header > a span {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Hover funktion för upptack-knappen. */
 .upptack-knapp:hover {
     background-color: #737272;
     background-color: white;
     transform: translateY(-2px);
 }
 
+
+/* Styling för stycket "Nära till naturen. */
 .naturen {
     display: block;
     padding: 1rem;
@@ -126,6 +133,7 @@ header > a span {
     text-align: center;
 }
 
+/* Styling för Aktiviteter/Upplev Norrgläntan. */
 .aktiviteter {
     display: flex;
     flex-direction: column;
@@ -178,4 +186,11 @@ header > a span {
     padding-bottom: 1rem;
     padding-right: 1rem;
     width: 92%;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+/* Hover för paragraferna. */
+.aktivitet p:hover {
+    color: yellow;
+}
+
