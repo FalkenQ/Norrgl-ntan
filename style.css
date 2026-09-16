@@ -58,7 +58,6 @@ header > a span {
 }
 
 .navigering a:hover {
-    background-color: #2F2681;
     background-color: rgb(6, 237, 245);
     color: rgb(0, 0, 0);
     transform: translateY(-2px);
@@ -111,7 +110,6 @@ header > a span {
 
 /* Hover funktion för upptack-knappen. */
 .upptack-knapp:hover {
-    background-color: #737272;
     background-color: white;
     transform: translateY(-2px);
 }
@@ -230,7 +228,6 @@ header > a span {
 
 /* Hover funktion för besok-knappen. */
 .besok-knapp:hover {
-    background-color: #737272;
     background-color: white;
     transform: translateY(-2px);
 }
