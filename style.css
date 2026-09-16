@@ -51,6 +51,14 @@ header > a span {
     padding: 0.6rem;
     margin: auto;
     border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navigering a:hover {
+    background-color: #2F2681;
+    background-color: rgb(6, 237, 245);
+    color: rgb(0, 0, 0);
+    transform: translateY(-2px);
 }
 
 .hero {
@@ -94,4 +102,10 @@ header > a span {
     text-align: center;
     margin: auto;
     filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.2));
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+.upptack-knapp:hover {
+    background-color: #737272;
+    background-color: white;
+    transform: translateY(-2px);
