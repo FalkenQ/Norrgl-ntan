@@ -93,4 +93,5 @@ header > a span {
     border-radius: 10px;
     text-align: center;
     margin: auto;
+    filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.2));
 }
