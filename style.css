@@ -127,7 +127,8 @@ header > a span {
 }
 
 .aktiviteter {
-    display: block;
+    display: flex;
+    flex-direction: column;
     background-color: #2F2681;
     padding: 1rem;
 }
@@ -140,11 +141,41 @@ header > a span {
 .aktiviteter img {
     display: block;
     width: 85%;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
     margin: auto;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 1rem;
     padding-bottom: 2rem;
     background-color: #153117;
+}
+
+.aktivitet h3 {
+    font-size: 1.5rem;
+    text-align: left;
+    text-decoration: underline;
+    margin: auto;
+    color: white;
+    background-color: black;
+    border-radius: 10px 10px 0px 0px;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    width: 90%;
+}
+
+.aktivitet p {
+    display: block;
+    text-align: left;
+    color: white;
+    background-color: black;
+    border-radius: 0px 0px 10px 10px;
+    margin: auto;
+    margin-bottom: 1.6rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    width: 92%;
 }
