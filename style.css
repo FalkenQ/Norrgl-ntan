@@ -54,15 +54,43 @@ header > a span {
 }
 
 .hero {
+    display: block;
     background-color: #2F2681;
+    padding: 1rem;
 }
 
 .hero img {
+    display: block;
     width: 85%;
-    margin: 1.6rem;
+    margin:auto;
     border-radius: 10px;
 }
 
-h1 {
+.hero h1 {
     color: white;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.hero p {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 0.5rem;
+}
+
+.upptack-knapp {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    color: black;
+    font-weight: semi-bold;
+    width: 50%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #737272;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
 }
