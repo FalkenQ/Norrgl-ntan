@@ -446,4 +446,23 @@ footer {
         padding-right: 1.7rem;
     }
 
+    .aktiviteter {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+    }
+
+    .aktiviteter h2 {
+        font-size: 40px;
+        grid-column: 1 / -1;
+        text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    .aktivitet p {
+        width: 548px;
+    }
+
+    .aktivitet h3 {
+        width: 540px;
+    }
 }
