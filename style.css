@@ -336,13 +336,36 @@ footer {
     /* Ändringar av hero */
 
     .hero {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         align-items: start;
+        gap: 2rem;
     }
 
     .hero img {
-        flex-direction: row;
-        align-items: start;
+        height: 300px;
+        width: 500px;
+        grid-column: 1;
+        grid-row: 2 / 4;
+        filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.2));
+    }
+
+    .hero h1 {
+        grid-column: 1 / -1;
+        font-size: 40px;
+    }
+
+    .hero p {
+        grid-column: 2 / 3;
+        width: 450px;
+        font-size: 30px;
+    }
+
+    .upptack-knapp {
+        grid-column: 2 / 3;
+        width: 400px;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        font-size: 25px;
     }
 }
