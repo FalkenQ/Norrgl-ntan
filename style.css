@@ -347,6 +347,8 @@ footer {
         width: 500px;
         grid-column: 1;
         grid-row: 2 / 4;
+        padding-bottom: 1rem;
+        border-radius: 0px;
         filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.2));
     }
 
@@ -368,4 +370,80 @@ footer {
         padding-bottom: 0.8rem;
         font-size: 25px;
     }
+
+    /* Styling av nära till naturen för desktop. */
+    .naturen h2 {
+        font-size: 35px;
+        text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+
+    .naturen p {
+        font-size: 20px;
+        width: 1000px;
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+
+
+    /* Styling av besök för desktop. */
+    .besok h2 {
+        font-size: 35px;
+        text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+
+    .besok p {
+        font-size: 20px;
+        width: 800px;
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+
+    .besok-knapp {
+        width: 400px;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        font-size: 25px;
+    }
+
+    /* Styling av footern för desktop. */
+    .footer-identitet img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .footer-identitet h2 {
+        font-size: 30px;
+    }
+
+    .footer-identitet p {
+        font-size: 20px;
+    }
+
+    .footer-kontakt h2 {
+        font-size: 30px;
+    }
+
+    .footer-kontakt p {
+        font-size: 18px;
+    }
+
+    .footer-lank {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .footer-lank h2 {
+        font-size: 30px;
+    }
+
+    .footer-lank a {
+        font-size: 18px;
+        padding-right: 1.7rem;
+    }
+
 }
